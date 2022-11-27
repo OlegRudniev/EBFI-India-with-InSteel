@@ -3,7 +3,7 @@
   padding: 0; }
 
 body {
-  width: 1440px; }
+  width: 100%; }
 
 .header-time {
   display: flex;
@@ -20,7 +20,7 @@ body {
   height: 100%;
   width: 0%;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   top: 0;
   left: 0;
   background-color: white;
@@ -84,19 +84,40 @@ body {
 
 .logo_ISO17020 {
   height: 100px;
-  width: 250px; }
-
+  width: 250px;
+}
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px; }
 
   .sidenav a {
-    font-size: 18px; } }
-.carousel-control-prev {
-  z-index: -1; }
+    font-size: 18px; }} 
 
-.carousel-control-next {
-  z-index: -1; }
+.refPicture{
+display: block;
+text-align: center;
+color: black;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+margin: 10px 0;
+
+}  
+  .owl-dots{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .owl-dot{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #323946 !important;
+    margin: 0px 15px;
+  }
+.active{
+  background-color: #3672CB !important;
+}
 
 footer {
   background-color: #323946;
@@ -125,5 +146,11 @@ footer {
   margin-top: 30px;
   display: flex;
   justify-content: space-around; }
+
+/* Контейнер с маркерами */
+
+.owl-next {
+  margin-left: 20px;
+}
 
 /*# sourceMappingURL=index.css.map */
