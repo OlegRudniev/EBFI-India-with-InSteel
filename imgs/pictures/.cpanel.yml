@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ebfinsteel/public_html/
+    - /bin/cp -R EBFI-India-with-InSteel $DEPLOYPATH
