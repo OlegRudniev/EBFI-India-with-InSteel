@@ -90,7 +90,6 @@
   .PictureClients{
     width: 600px;
     height: 300px;
-    
   }  
   
   @media screen and (max-height: 450px) {
