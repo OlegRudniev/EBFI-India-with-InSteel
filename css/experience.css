@@ -86,6 +86,12 @@
   .logo_ISO17020 {
     height: 100px;
     width: 250px; }
+
+  .PictureClients{
+    width: 600px;
+    height: 300px;
+    
+  }  
   
   @media screen and (max-height: 450px) {
     .sidenav {
