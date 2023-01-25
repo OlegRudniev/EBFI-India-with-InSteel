@@ -138,6 +138,56 @@
     display: flex;
     justify-content: space-around; }
 
+    @media screen and (max-width: 769px) {
+      header {
+        font-size: 16px;
+      }
+      .logo_EBFI {
+        height: 45px;
+        width: 180px;
+        margin-top: 20px; }
+    
+        .logo_ISO17020 {
+          height: 80px;
+          width: 200px; }
+      
+      footer {
+        font-size: 14px;
+      }
+    }
+    
+    @media screen and (max-width: 481px) {
+      header {
+        font-size: 10px;
+      }
+      .logo_EBFI {
+        height: 30px;
+        width: 120px;
+        margin-top: 20px; }
+    
+        .logo_ISO17020 {
+          height: 55px;
+          width: 140px; }
+    
+          .search {
+            display: none; }  
+      
+      footer {
+        font-size: 12px;
+      }
+    
+      .footer-logo {
+        height: 36px;
+        width: 145px;
+        margin-bottom: 20px; }
+    }
+    
+    .footer-developer {
+      margin-top: 30px;
+      margin-left: 5px;
+      display: flex;
+      justify-content: space-around; }  
+
     
   
   /*# sourceMappingURL=history.css.map */
